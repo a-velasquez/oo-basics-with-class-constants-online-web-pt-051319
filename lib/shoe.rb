@@ -8,8 +8,8 @@ class Shoe
     @brand = brand
     if BRANDS.include?(brand) # if BRANDS array includes brand passed as argument it returns nothing. 
   else                        # else if it's not included
-    BRANDS << brand             
-  end
+    BRANDS << brand           # it returns the "unique"    
+  end                         #brands    
   end
 
   def cobble
