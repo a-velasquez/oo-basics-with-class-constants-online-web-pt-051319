@@ -6,9 +6,9 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    if BRANDS.include?(brand)
-  else 
-    BRANDS << brand 
+    if BRANDS.include?(brand) # if BRANDS array includes brand passed as argument it returns nothing. 
+  else                        # else if it's not included
+    BRANDS << brand             it returns the "unique"                              BRANDS array
   end
   end
 
